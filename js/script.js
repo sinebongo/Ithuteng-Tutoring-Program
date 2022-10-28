@@ -32,7 +32,7 @@
 		autoplay: true,
 		autoplaySpeed: 7500,
 		pauseOnFocus: false,
-		pauseOnHover: True,
+		pauseOnHover: false,
 		infinite: true,
 		arrows: true,
 		fade: true,
