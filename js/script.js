@@ -35,11 +35,11 @@
 		pauseOnFocus: false,
 		pauseOnHover: false,
 		infinite: true,
-		arrows: false,
+		arrows: true,
 		fade: true,
 		prevArrow: '<button type=\'button\' class=\'prevArrow\'><i class=\'ti-angle-left\'></i></button>',
 		nextArrow: '<button type=\'button\' class=\'nextArrow\'><i class=\'ti-angle-right\'></i></button>',
-		dots: false,
+		dots: true
 	});
 	$('.hero-slider').slickAnimation();
 
