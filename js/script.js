@@ -34,6 +34,7 @@
 		mobileFirst: true,
 		pauseOnFocus: false,
 		pauseOnHover: false,
+		navigator: true,
 		infinite: true,
 		arrows: true,
 		fade: true,
