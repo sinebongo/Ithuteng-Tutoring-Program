@@ -35,7 +35,7 @@
 		pauseOnFocus: false,
 		pauseOnHover: false,
 		infinite: true,
-		arrows: true,
+		arrows: false,
 		fade: true,
 		prevArrow: '<button type=\'button\' class=\'prevArrow\'><i class=\'ti-angle-left\'></i></button>',
 		nextArrow: '<button type=\'button\' class=\'nextArrow\'><i class=\'ti-angle-right\'></i></button>',
