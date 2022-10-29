@@ -32,7 +32,7 @@
 		autoplay: true,
 		autoplaySpeed: 8000,
 		mobileFirst: true,
-		pauseOnFocus: false,
+		pauseOnFocus: true,
 		pauseOnHover: false,
 		navigator: true,
 		infinite: true,
