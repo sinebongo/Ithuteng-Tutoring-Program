@@ -23,7 +23,8 @@ body {
   color: #5c5c77;
 }
 
-p, .paragraph {
+p,
+.paragraph {
   font-weight: 400;
   color: #5c5c77;
   font-size: 15px;
@@ -31,65 +32,89 @@ p, .paragraph {
   font-family: "Poppins", sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #1e1e4b;
   font-family: "futura-bold";
   font-weight: 700;
   line-height: 1.2;
 }
 
-h1, .h1 {
+h1,
+.h1 {
   font-size: 60px;
 }
 @media (max-width: 575px) {
-  h1, .h1 {
+  h1,
+.h1 {
     font-size: 45px;
   }
 }
 
-h2, .h2 {
+h2,
+.h2 {
   font-size: 40px;
 }
 @media (max-width: 575px) {
-  h2, .h2 {
+  h2,
+.h2 {
     font-size: 30px;
   }
 }
 
-h3, .h3 {
+h3,
+.h3 {
   font-size: 25px;
 }
 @media (max-width: 575px) {
-  h3, .h3 {
+  h3,
+.h3 {
     font-size: 20px;
   }
 }
 
-h4, .h4 {
+h4,
+.h4 {
   font-size: 20px;
 }
 @media (max-width: 575px) {
-  h4, .h4 {
+  h4,
+.h4 {
     font-size: 18px;
   }
 }
 
-h5, .h5 {
+h5,
+.h5 {
   font-size: 18px;
 }
 @media (max-width: 575px) {
-  h5, .h5 {
+  h5,
+.h5 {
     font-size: 16px;
   }
 }
 
-h6, .h6 {
+h6,
+.h6 {
   font-size: 16px;
 }
 @media (max-width: 575px) {
-  h6, .h6 {
+  h6,
+.h6 {
     font-size: 14px;
   }
+}
+
+img.ico {
+  width: 150px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Button style */
