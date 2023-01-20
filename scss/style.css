@@ -513,6 +513,16 @@ textarea.form-control {
   height: 500px;
 }
 
+.card-pricing.popular {
+  z-index: 1;
+  border: 3px solid #007bff;
+}
+
+.card-pricing .list-unstyled li {
+  padding: 0.5rem 0;
+  color: #6c757d;
+}
+
 .top-header {
   font-size: 12px;
   transition: transform 0.2s ease;
