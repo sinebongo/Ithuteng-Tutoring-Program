@@ -34,6 +34,7 @@
 		mobileFirst: true,
 		pauseOnFocus: false,
 		pauseOnHover: false,
+		swipe: false,
 		infinite: true,
 		arrows: true,
 		fade: true,
