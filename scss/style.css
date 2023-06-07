@@ -258,12 +258,14 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #f8f8f8;
+  background-color: #FFFFFF;
   z-index: 999999;
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
+
 
 ol,
 ul {
