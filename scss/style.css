@@ -263,6 +263,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  transform: translate(scale(0.2));
   
 }
 
