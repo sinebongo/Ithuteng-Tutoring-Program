@@ -955,3 +955,26 @@ link:focus,
 .filter-controls li:hover {
   color: #039be5;
 }/*# sourceMappingURL=style.css.map */
+.teacher-card img {
+  height: auto;
+  width: 100%;
+  max-height: 350px;
+}
+.section-title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.card-body h4 {
+  font-size: 1.2rem;
+}
+  .story-image {
+    height: 500px; /* Set a fixed height for consistent sizing */
+    object-fit: cover; /* Ensure the image covers the entire space */
+    object-position: center top; /* Position the image at the top center */
+  }
+
+  @media (max-width: 767px) {
+    .story-image {
+      height: 400px; /* Adjust height for smaller screens */
+    }
+  }
