@@ -1,5 +1,17 @@
 const { use } = require('express/lib/application');
 const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+
+const pages = [
+    { filename: 'index.html', template: './index.html' },
+    { filename: 'about.html', template: './about.html' },
+    { filename: 'contact.html', template: './contact.html' },
+    { filename: 'events.html', template: './events.html' },
+    { filename: 'notice.html', template: './notice.html' },
+    { filename: 'research.html', template: './research.html' },
+    { filename: 'scholarship.html', template: './scholarship.html' },
+    
+  ];
 
 module.exports ={
     mode: 'production',
@@ -11,6 +23,20 @@ module.exports ={
         filename: 'bundle.js',
         clean: true
     },
+    plugins: pages.map(page => 
+        new HtmlWebpackPlugin({
+          filename: page.filename,
+          template: page.template,
+          minify: {
+            removeComments: true,
+            collapseWhitespace: true,
+            removeRedundantAttributes: true,
+            useShortDoctype: true,
+            removeEmptyAttributes: true,
+            removeOptionalTags: true,
+          },
+        })
+      ),
     optimization: {
         minimize: true, 
       },
