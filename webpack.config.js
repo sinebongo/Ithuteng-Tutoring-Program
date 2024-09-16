@@ -1,6 +1,7 @@
 const { use } = require('express/lib/application');
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 const pages = [
     { filename: 'index.html', template: './index.html' },
@@ -23,7 +24,8 @@ module.exports ={
         filename: 'bundle.js',
         clean: true
     },
-    plugins: pages.map(page => 
+    plugins:[
+        ...pages.map(page => 
         new HtmlWebpackPlugin({
           filename: page.filename,
           template: page.template,
@@ -37,6 +39,14 @@ module.exports ={
           },
         })
       ),
+      new CopyWebpackPlugin({
+        patterns: [
+          { from: './scss', to: 'scss' },
+          { from: './images', to: 'images' },
+          { from: './plugins', to: 'plugins' },
+          { from: './fonts', to: 'fonts' },
+        ],
+      }),] ,
     optimization: {
         minimize: true, 
       },
